@@ -4,23 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     <!-- https://www.w3schools.com/icons/icons_reference.asp -> font-awsome4 아이콘 사용 -->
-     <link rel="stylesheet"
-     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>KW Restaurant Map</title>
   
     <style>
-  
-    
+    /* KwangwoonUniversity Map */
+        div {
+      background-image: url("../ns_web/kwaongwoon_map.jpg");
+      background-color: white;
+      width : 1200px;
+      height: 800px;
+      background-repeat: no-repeat;
+      background-position-x: center;
+    }
+    img.position1{
+        position: relative;
+        left: 550px;
+        top: 100px;
+        bottom: 500px;
+    }
+
+    img.position2{
+        position: relative;
+        left: 800px;
+        top: 100px;
+        bottom: 500px;
+    }
+
+    img.position3{
+        position: relative;
+        left: 100px;
+        top: 300px;
+        bottom: 500px;
+    }
+
+    img.position4{
+        position: relative;
+        left: 800px;
+        top: 450px;
+        bottom: 700px;
+    }
     </style>
 </head>
 <body>
-    <br>
     <h1 style="text-align: center; color: maroon;"><b>KwangWoon University Restaurant Map</b></h1>
     <br><hr>
-    <img src="../ns_web/kwaongwoon_map.jpg" alt="KwangWoon.univ_map" width="1008px" style="margin-left: auto; margin-right: auto; display: block;">  
     
+     <!-- position icon -->
+     <div>
+        <div>
+            <a href="/ns_web/food_list1.html">
+                <img src="/ns_web/point.png" alt="user" style="width: 100px; height: 100px;" class="position1">
+            </a>
+            <a href="/ns_web/food_list2.html">
+                <img src="/ns_web/point.png" alt="user" style="width: 100px; height: 100px;" class="position2">
+            </a>
+            <a href="/ns_web/food_list3.html">
+                <img src="/ns_web/point.png" alt="user" style="width: 100px; height: 100px;" class="position3">
+            </a>
+            <a href="/ns_web/food_list4.html">
+                <img src="/ns_web/point.png" alt="user" style="width: 100px; height: 100px;" class="position4">
+            </a>
+        </div>
+    </div>
  
     
 </body>
