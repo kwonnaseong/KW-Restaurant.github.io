@@ -1,12 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>food_list3</title>
+    <title>KW Food List 3</title>
+    <style>
+    div {
+        /*  box-sizing을 border-box로 설정
+            좌우 중앙 정렬
+            */
+            box-sizing: border-box;
+            margin: 0 auto;
+    }
+    #bg {
+        
+            width: 1000px;
+            height: 700px;
+            background-image: url("../food3.jpg");
+            background-repeat: no-repeat;
+            background-size: 1000px 700px;
+            background-position: -30px 0px;
+            padding-top: 100px;
+            background-blend-mode: darken;
+    }
+    #content{
+        width: 60%;
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        border: white solid 10px;
+        padding: 16px;
+        display: table;
+        /* 내부의 컨텐츠를 가운데 정렬하기 위해 table 사용 */
+    }
+      /* 방문하지 않은 링크일 때 */
+      a:link{
+      background-color: white;
+    }
+    /* 방문한 링크일 때 */
+    a:visited{
+      background-color:white;
+    }
+    /* 마우스를 링크 위에 올려놓았을 때 */
+    a:hover{
+      background-color: yellow;
+    }
+    /* 클릭한 상태일 때 */
+    a:active{
+      background-color: hotpink;
+    }
+    </style>    
 </head>
 <body>
-    
+    <div id="bg">
+        <div id="content">
+            <h1>KwangWoonUniversity Restaurant List</h1>
+            <br>
+            <p><a href="https://store.naver.com/restaurants/detail?entry=plt&id=1661949512&query=%ED%8C%8C%ED%8C%8C%EC%A1%B4%EC%8A%A4%20%EA%B4%91%EC%9A%B4%EB%8C%80%EC%A0%90" 
+                target=""> 파파존스</a><br>
+            
+            <p><br>
+        </div>
+    </div>    
 </body>
 </html>
